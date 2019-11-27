@@ -47,15 +47,3 @@ e o `initialize`.
 ============================================================================
 
 
-Feature:
-No show de car_model, remover verificação de foto anexada.
-
-obs: necessário arrumar factory de car_model.
-### Decorator
-
-Gem draper para ajudar a montar o pattern decorator/presenter
-gem 'draper'. Basta instalar adicionando a gem no Gemfile e rodar bundle
-install.
-
-mesmo processedimentos de presenter. Usar delegate_all, que sobrescreve method
-missing.
