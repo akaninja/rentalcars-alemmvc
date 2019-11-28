@@ -1,4 +1,4 @@
-# Rails com TDD
+# Rails além do MVC - Rental Cars
 ## Segundo dia
 
 Feature:
