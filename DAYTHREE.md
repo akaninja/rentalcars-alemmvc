@@ -29,3 +29,14 @@ locações.
 Dentro dessa classe podemos abusar de novos métodos, criando um método para
 verificar se o usuário é admin ou se é um funcionário da mesma filial em que a
 locação foi agendada. No método authorized? apenas chamamos esses métodos.
+
+
+Feature:
+No RentalController refatorar o método `confirm`.
+
+### Services
+
+Vamos criar um RentalConfirmer. Nele podemos criar os métodos que encontram a
+locação, o carro e os adicionais, pelos ids recebidos no initilize.
+
+
