@@ -10,7 +10,7 @@
     <p><%= rental_item.rentable.addon.name %>: n <%= rental_item.rentable.registration_number  %></p>
   <% end %>
 <% end %>
-<p><%= Rental.human_attribute_name('price_projection') %>: <%= number_to_currency(@rental.price_projection) %>
+<p><%= Rental.human_attribute_name('price_projection') %>: <%= number_to_currency(@rental.calculate_final_price) %>
 <p><%= Rental.human_attribute_name('license_plate') %>: <%= @car.license_plate %><p>
 
 <%= link_to 'Confirmar', start_rental_path, method: :post %>
